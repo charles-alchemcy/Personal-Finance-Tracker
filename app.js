@@ -13,6 +13,8 @@ mongoose.connect('mongodb://localhost:27017/financeTracker', {
     useUnifiedTopology: true
 });
 
+
+
 // Routes
 const expensesRoute = require('./routes/expenses');
 const insightsRoute = require('./routes/insights');
@@ -20,7 +22,7 @@ app.use('/api/expenses', expensesRoute);
 app.use('/api/insights', insightsRoute);
 
 // Start server
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });

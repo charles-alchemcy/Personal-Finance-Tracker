@@ -15,6 +15,7 @@ router.post('/', async (req, res) => {
     }
 });
 
+
 // Get all expenses
 router.get('/', async (req, res) => {
     try {
