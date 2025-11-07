@@ -17,7 +17,7 @@ router.post('/', async (req, res) => {
 
 
 // Get all expenses
-router.get('/', async (req, res) => {
+router.get('/expense', async (req, res) => {
     try {
         const expenses = await Expense.find();
         res.json(expenses);
