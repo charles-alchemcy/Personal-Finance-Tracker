@@ -11,8 +11,9 @@ Welcome to the **Personal Finance Tracker with Machine Learning Insights**! This
 - **Budget Planning**: Set budgets and track your spending against these limits.
 - **Goal Setting**: Define financial goals and monitor your progress toward achieving them.
 
-## 🚀 How to Run
 
+## 🚀 How to Run
+deploy project
 ### Prerequisites
 
 - **Node.js** and **npm** installed on your machine.
