@@ -13,7 +13,10 @@ Welcome to the **Personal Finance Tracker with Machine Learning Insights**! This
 
 
 ## 🚀 How to Run
-deploy project
+
+- clone project
+- make environment
+
 ### Prerequisites
 
 - **Node.js** and **npm** installed on your machine.
